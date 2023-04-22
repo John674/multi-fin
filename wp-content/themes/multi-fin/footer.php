@@ -3,7 +3,7 @@
 <!-- /.content-wrapper -->
 <footer class="bg-dark text-inverse">
 	<div class="container py-13 py-md-15">
-		<p class="mt-6 mb-0 text-center">© 2023 multi-fing Trade Ltd. All rights reserved.</p>
+		<p class="mt-6 mb-0 text-center"><?php printf(__('footer_copyright', 'multi_fin'),date("Y")) ?> </p>
 	</div>
 	<!-- /.container -->
 </footer>
